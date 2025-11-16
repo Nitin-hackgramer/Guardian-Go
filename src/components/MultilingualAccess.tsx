@@ -44,7 +44,7 @@ const MultilingualAccess = () => {
             <span className="text-sm font-medium text-white">Universal Access</span>
           </div>
           <h2 className="text-4xl lg:text-6xl font-bold text-white">
-            Speak Your <span className="text-secondary">Language</span>
+            Speak Your <span className="text-secondary text-[#000265]">Language</span>
           </h2>
           <p className="text-lg text-white/70 max-w-2xl mx-auto">
             Access GuardianGo in 11+ Indian languages with real-time translation and voice-enabled emergency support.
