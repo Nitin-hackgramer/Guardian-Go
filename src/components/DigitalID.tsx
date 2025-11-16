@@ -38,7 +38,7 @@ const DigitalID = () => {
                     </div>
                     <h2 className="text-4xl lg:text-6xl font-bold text-primary">
                         Digital{" "}
-                        <span className="text-secondary-foreground ">
+                        <span className="text-secondary-foreground text-[#000265]">
                             Tourist ID
                         </span>
                     </h2>
@@ -89,7 +89,7 @@ const DigitalID = () => {
                                     </div>
                                     <div>
                                         <h4 className="text-xl font-bold text-white">
-                                            Arjun Sharma
+                                            Nitin Sharma
                                         </h4>
                                         <p className="text-sm text-white/70">
                                             Tourist ID: GG2025-IN-4521
@@ -143,9 +143,9 @@ const DigitalID = () => {
                                 </div>
 
                                 {/* Biometric Badge */}
-                                <div className="flex items-center justify-center gap-2 py-3 bg-white/5 rounded-xl">
+                                <div className="flex items-center justify-center gap-2 py-3 bg-[#0005363d]  rounded-xl">
                                     <Fingerprint className="w-5 h-5 text-secondary" />
-                                    <span className="text-sm text-white/80">
+                                    <span className="text-sm text-[#001260]">
                                         Biometric Enabled
                                     </span>
                                 </div>
@@ -229,7 +229,7 @@ const DigitalID = () => {
                                     delay: index * 0.1,
                                     duration: 0.5,
                                 }}
-                                className="flex gap-4 p-4 rounded-2xl hover:bg-muted/50 transition-colors group"
+                                className="flex gap-4 p-4 rounded-2xl border-[3px] border-[#000620] bg-[#0005363d] hover:bg-muted/50 hover:text-[#333] transition-colors group"
                             >
                                 <div
                                     className={`w-14 h-14 rounded-xl ${feature.bgColor} flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform`}
@@ -239,12 +239,12 @@ const DigitalID = () => {
                                     />
                                 </div>
                                 <div>
-                                    <h3 className="text-lg font-bold text-primary mb-1">
-                                        {feature.title}
-                                    </h3>
-                                    <p className="text-sm text-muted-foreground leading-relaxed">
-                                        {feature.description}
-                                    </p>
+                                  <h3 className="text-lg font-bold text-[#fff] mb-1 group-hover:text-[#001260] transition-colors">
+                                    {feature.title}
+                                  </h3>
+                                  <p className="text-sm text-[#fff]/80 leading-relaxed group-hover:text-[#001260] transition-colors">
+                                    {feature.description}
+                                  </p>
                                 </div>
                             </motion.div>
                         ))}
