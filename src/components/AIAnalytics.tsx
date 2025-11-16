@@ -36,7 +36,7 @@ const AIAnalytics = () => {
             <span className="text-sm font-medium text-primary">AI-Powered Insights</span>
           </div>
           <h2 className="text-4xl lg:text-6xl font-bold text-primary">
-            Predictive <span className="text-secondary">Analytics</span>
+            Predictive <span className="text-secondary text-[#000265]">Analytics</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Machine learning algorithms detect patterns, predict risks, and optimize tourist safety in real-time.
