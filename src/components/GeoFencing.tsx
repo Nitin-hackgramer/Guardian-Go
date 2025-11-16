@@ -36,7 +36,7 @@ const GeoFencing = () => {
             <span className="text-sm font-medium text-primary">Real-Time Monitoring</span>
           </div>
           <h2 className="text-4xl lg:text-6xl font-bold text-primary">
-            Geo-Fencing & <span className="text-secondary">Zone Alerts</span>
+            Geo-Fencing & <span className="text-secondary text-[#000265]">Zone Alerts</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             AI-powered location tracking with smart alerts for high-risk zones and safe route recommendations.
