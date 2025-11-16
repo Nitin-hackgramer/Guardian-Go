@@ -1,12 +1,5 @@
 import { motion } from "framer-motion";
-import {
-    ArrowRight,
-    Shield, 
-    MapPin,
-    Clock,
-    Users,
-    Flame,
-} from "lucide-react";
+import { ArrowRight, Shield, MapPin, Clock, Users, Flame } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 // Animation variants for reusability
@@ -260,38 +253,6 @@ const Hero = () => {
                                             </div>
                                         </div>
                                         <div className="w-0.5 h-8 bg-gradient-to-b from-cyan-500/50 to-transparent ml-auto mr-5 mt-1" />
-                                    </div>
-                                );
-                            })}
-                        </motion.div>
-
-                        {/* Mobile Stats - Compact display below feature pills */}
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.8, duration: 0.6 }}
-                            className="lg:hidden absolute bottom-0 left-0 right-0 flex justify-center gap-2 px-4 pointer-events-auto"
-                        >
-                            {stats.map((stat, i) => {
-                                const Icon = stat.icon;
-                                return (
-                                    <div
-                                        key={i}
-                                        className="group cursor-default"
-                                    >
-                                        <div className="flex flex-col items-center gap-1 bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-lg p-1.5">
-                                            <div className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-cyan-500/10 border border-cyan-500/20 group-hover:bg-cyan-500/20 transition-all">
-                                                <Icon className="w-2.5 h-2.5 text-cyan-400" />
-                                            </div>
-                                            <div className="text-center">
-                                                <div className="text-xs font-bold text-white">
-                                                    {stat.number}
-                                                </div>
-                                                <div className="text-[10px] text-slate-400 font-medium whitespace-nowrap">
-                                                    {stat.label}
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 );
                             })}
