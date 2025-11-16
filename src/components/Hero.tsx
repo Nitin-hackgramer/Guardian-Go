@@ -88,7 +88,7 @@ const Hero = () => {
                         <motion.h1
                             variants={fadeInUp}
                             transition={{ duration: 0.6, delay: 0.1 }}
-                            className=" top-0 text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-[1.1] tracking-tight"
+                            className="top-0 text-3xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-[1.1] tracking-tight"
                         >
                             Smart, Stress-Free
                             <br />
@@ -101,9 +101,8 @@ const Hero = () => {
                         <motion.p
                             variants={fadeInUp}
                             transition={{ duration: 0.6, delay: 0.2 }}
-                            className="text-lg sm:text-xl  text-slate-200 max-w-3xl mx-auto leading-relaxed"
+                            className="text-sm sm:text-base md:text-lg text-slate-200 max-w-3xl mx-auto leading-snug sm:leading-relaxed"
                         >
-                            <br />
                             Real-time safety insights, AI-powered alerts, and
                             blockchain-secured identities. Transform your travel
                             experience with intelligent protection across India.
@@ -113,21 +112,21 @@ const Hero = () => {
                         <motion.div
                             variants={fadeInUp}
                             transition={{ duration: 0.6, delay: 0.3 }}
-                            className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4"
+                            className="flex flex-row gap-2 sm:gap-4 justify-center items-center pt-4"
                         >
                             <Button
                                 size="lg"
-                                className="group bg-cyan-500 text-slate-950 hover:bg-cyan-400 text-base font-semibold px-8 py-6 rounded-xl shadow-lg shadow-cyan-500/25 hover:shadow-cyan-400/40 transition-all duration-300"
+                                className="group whitespace-nowrap shrink-0 bg-cyan-500 text-slate-950 hover:bg-cyan-400 text-sm sm:text-base font-semibold px-4 py-3 sm:px-8 sm:py-6 rounded-lg sm:rounded-xl shadow-lg shadow-cyan-500/25 hover:shadow-cyan-400/40 transition-all duration-300"
                             >
                                 Get Started
-                                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                             </Button>
                             <Button
                                 size="lg"
                                 variant="outline"
-                                className="text-base font-semibold px-8 py-6 rounded-xl border-2 border-slate-700 bg-slate-800/50 text-white hover:bg-slate-800 hover:border-slate-600 hover:text-B-400 transition-all backdrop-blur-sm"
+                                className="whitespace-nowrap shrink-0 text-sm sm:text-base px-4 py-3 sm:px-8 sm:py-6 rounded-lg sm:rounded-xl border-2 border-slate-700 bg-slate-800/50 text-white hover:bg-slate-800 hover:border-slate-600 hover:text-B-400 transition-all backdrop-blur-sm"
                             >
-                                <Shield className="w-5 h-5 mr-2" />
+                                <Shield className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                                 Watch Demo
                             </Button>
                         </motion.div>
