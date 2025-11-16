@@ -59,7 +59,7 @@ const EmergencySOS = () => {
                     </div>
                     <h2 className="text-4xl lg:text-6xl font-bold text-white">
                         Panic Button &{" "}
-                        <span className="text-secondary">Instant SOS</span>
+                        <span className="text-secondary text-[#000265]">Instant SOS</span>
                     </h2>
                     <p className="text-lg text-white/70 max-w-2xl mx-auto">
                         One-tap emergency alert system with instant police
