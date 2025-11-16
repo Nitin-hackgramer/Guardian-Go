@@ -61,7 +61,7 @@ const IoTIntegration = () => {
             </span>
           </div>
           <h2 className="text-4xl lg:text-6xl font-bold text-primary">
-            IoT <span className="text-secondary">Ecosystem</span>
+            IoT <span className="text-secondary text-[#000265]">Ecosystem</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Wearable devices and smart sensors for continuous health monitoring
