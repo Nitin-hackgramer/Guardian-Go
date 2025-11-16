@@ -54,7 +54,7 @@ const DashboardAccess = () => {
             </span>
           </div>
           <h2 className="text-4xl lg:text-6xl font-bold text-primary">
-            Command <span className="text-secondary">Center</span>
+            Command <span className="text-secondary text-[#000265]">Center</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Unified dashboard for police, tourism officials, and emergency
