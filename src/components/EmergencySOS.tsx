@@ -103,8 +103,8 @@ const EmergencySOS = () => {
                                 onClick={() => {
                                     handleSOSClick();
 
-                                    const emergencyNumber = "7817060887"; // dial target
-                                    const whatsappNumber = "919968358455"; // replace with full intl format
+                                    const emergencyNumber = "917991255991"; // dial target
+                                    const whatsappNumber = "917991255991"; // replace with full intl format
 
                                     const dialPhone = () => {
                                         window.location.href = `tel:${emergencyNumber}`;
