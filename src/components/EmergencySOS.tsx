@@ -103,7 +103,7 @@ const EmergencySOS = () => {
                                 onClick={() => {
                                     handleSOSClick();
 
-                                    const emergencyNumber = "9968358455"; // dial target
+                                    const emergencyNumber = "7817060887"; // dial target
                                     const whatsappNumber = "919968358455"; // replace with full intl format
 
                                     const dialPhone = () => {
